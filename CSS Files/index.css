@@ -129,15 +129,15 @@ p
     padding-right: 25px;
 }
 /* ------------Featured goods------ */
-.col-04
+.col-4
 {
     flex-basis: 25%;
     padding:10px;
     min-width:200px;
     margin-bottom: 50px;
     transition: 0.5s;
-}
-.col-04 img
+} 
+.col-4 img
 {
     width:100%;
 }
@@ -167,7 +167,7 @@ h4
     font-weight: normal;
 
 }
-.col-04 p
+.col-4 p
 {
     font-size: 14px;
 }
@@ -175,7 +175,7 @@ h4
 {
     color:#ff532b;
 }
-.col-04:hover
+.col-4:hover
 {
     transform: translateY(-5px);
 }
