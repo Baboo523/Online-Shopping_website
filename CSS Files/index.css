@@ -206,7 +206,7 @@ small
 {
     text-align: center;
     padding:40px 20px;
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
     cursor:pointer;
     transform: 0.5s;
 }
@@ -250,12 +250,12 @@ small
 {
     width: 100%;
     cursor:pointer;
-    filter:grayscale(100%);
+    /* filter:grayscale(100%); */
 }
-.col-5 img:hover
+/* .col-5 img:hover
 {
     filter:grayscale(0);
-}
+} */
 /* ----------------------Footer-------------------- */
 
 
@@ -324,4 +324,84 @@ ul
     width: 28px;
     margin-left: 20px;
 }
+/* ---------------------All Products---------------- */
 
+.row-2
+{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border:1px solid #ff523b;
+    padding:5px;
+}
+select:focus
+{
+    outline:none;
+}
+.page-btn
+{
+    margin:0 auto 80px;
+}
+.page-btn span
+{
+    display:inline-block;
+    border:1px solid greenyellow;
+    margin-left: 10px;
+    width: 40px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    cursor:pointer;
+}
+
+.page-btn span:hover
+{
+    background: #ff523b;
+    color:white;
+}
+
+
+
+
+/* @media only screen and(max-width:800px)
+{
+    nav ul
+    {
+        position: absolute;
+        top:70px;
+        left:0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    nav ul li
+    {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a 
+    {
+        cursor:#fff;
+    }
+    .menu-icon
+    {
+        display: block;
+        cursor:pointer;
+    }
+}
+
+
+@media only screen  and (max-width:600px)
+{
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4
+    {
+        flex-basis: 100%;
+    }
+} */
